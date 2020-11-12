@@ -12,6 +12,7 @@
         <dc:creator>Mubashar Iqbal (mubashar.iqbal@ut.ee) and Raimundas Matulevičius (rma@ut.ee)</dc:creator>
         <dc:title>Corda Security Ontology</dc:title>
         <rdfs:comment>CordaSecOnt provides an extensible knowledge base of information security including the notions of Blockchain and Corda platform.</rdfs:comment>
+        <owl:versionInfo>V 1.0.0</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -247,6 +248,7 @@
         <owl:disjointWith rdf:resource="https://mmisw.org/ont/~mubashar/CordaSecOnt#SecurityCriteria"/>
         <owl:disjointWith rdf:resource="https://mmisw.org/ont/~mubashar/CordaSecOnt#Threat"/>
         <owl:disjointWith rdf:resource="https://mmisw.org/ont/~mubashar/CordaSecOnt#Vulnerability"/>
+        <rdfs:comment xml:lang="en">Asset is anything that is valuable and plays a role accomplishing the organisation&apos;s objecrives. Assets can be classified as business assets or system assets.</rdfs:comment>
         <rdfs:label xml:lang="en">Asset</rdfs:label>
     </owl:Class>
     
@@ -312,6 +314,8 @@
 
     <owl:Class rdf:about="https://mmisw.org/ont/~mubashar/CordaSecOnt#BusinessAsset">
         <rdfs:subClassOf rdf:resource="https://mmisw.org/ont/~mubashar/CordaSecOnt#Asset"/>
+        <rdfs:comment xml:lang="en">Business asset describes the information process, capabilities and skills essential to the business and its core mission. Business assets are immaterial.</rdfs:comment>
+        <rdfs:label xml:lang="en">BusinessAsset</rdfs:label>
     </owl:Class>
     
 
@@ -425,6 +429,7 @@
         <owl:disjointWith rdf:resource="https://mmisw.org/ont/~mubashar/CordaSecOnt#RiskTreatment"/>
         <owl:disjointWith rdf:resource="https://mmisw.org/ont/~mubashar/CordaSecOnt#SecurityRequirement"/>
         <owl:disjointWith rdf:resource="https://mmisw.org/ont/~mubashar/CordaSecOnt#Vulnerability"/>
+        <rdfs:comment xml:lang="en">Countermeasure is a designed means to improve the security by implementing the security requirements.</rdfs:comment>
         <rdfs:label xml:lang="en">Countermeasure</rdfs:label>
     </owl:Class>
     
@@ -2147,6 +2152,7 @@
         <owl:disjointWith rdf:resource="https://mmisw.org/ont/~mubashar/CordaSecOnt#SecurityCriteria"/>
         <owl:disjointWith rdf:resource="https://mmisw.org/ont/~mubashar/CordaSecOnt#Threat"/>
         <owl:disjointWith rdf:resource="https://mmisw.org/ont/~mubashar/CordaSecOnt#Vulnerability"/>
+        <rdfs:comment xml:lang="en">Risk treatment is a decision to treat the identified security threats. A treatment satisfies the security need, expressed in generic and functional terms and refined to security requirements.</rdfs:comment>
         <rdfs:label xml:lang="en">RiskTreatment</rdfs:label>
     </owl:Class>
     
@@ -2199,6 +2205,7 @@
     <owl:Class rdf:about="https://mmisw.org/ont/~mubashar/CordaSecOnt#SecurityCriteria">
         <owl:disjointWith rdf:resource="https://mmisw.org/ont/~mubashar/CordaSecOnt#SecurityRequirement"/>
         <owl:disjointWith rdf:resource="https://mmisw.org/ont/~mubashar/CordaSecOnt#Threat"/>
+        <rdfs:comment xml:lang="en">Security criteria describe the security needs, which are expressed as confidentiality, integirty and availability of business assets.</rdfs:comment>
         <rdfs:label xml:lang="en">SecurityCriteria</rdfs:label>
     </owl:Class>
     
@@ -2208,6 +2215,7 @@
 
     <owl:Class rdf:about="https://mmisw.org/ont/~mubashar/CordaSecOnt#SecurityRequirement">
         <owl:disjointWith rdf:resource="https://mmisw.org/ont/~mubashar/CordaSecOnt#Vulnerability"/>
+        <rdfs:comment xml:lang="en">Security requirement is a condition on the phenomena of the environment that we wish to make true by installing the information system, in order to mitigate security threat.</rdfs:comment>
         <rdfs:label xml:lang="en">SecurityRequirement</rdfs:label>
     </owl:Class>
     
@@ -2437,6 +2445,8 @@
 
     <owl:Class rdf:about="https://mmisw.org/ont/~mubashar/CordaSecOnt#SystemAsset">
         <rdfs:subClassOf rdf:resource="https://mmisw.org/ont/~mubashar/CordaSecOnt#Asset"/>
+        <rdfs:comment xml:lang="en">System asset is a part of information system and supports business asset.</rdfs:comment>
+        <rdfs:label xml:lang="en">SystemAsset</rdfs:label>
     </owl:Class>
     
 
@@ -2503,6 +2513,7 @@
 
     <owl:Class rdf:about="https://mmisw.org/ont/~mubashar/CordaSecOnt#Threat">
         <owl:disjointWith rdf:resource="https://mmisw.org/ont/~mubashar/CordaSecOnt#Vulnerability"/>
+        <rdfs:comment xml:lang="en">Threat is a potential negative action or event facilitated by a vulnerability that results in an unwanted impact to a computer system or application (WikiPedia).</rdfs:comment>
         <rdfs:label xml:lang="en">Threat</rdfs:label>
     </owl:Class>
     
@@ -2858,6 +2869,7 @@
     <!-- https://mmisw.org/ont/~mubashar/CordaSecOnt#Vulnerability -->
 
     <owl:Class rdf:about="https://mmisw.org/ont/~mubashar/CordaSecOnt#Vulnerability">
+        <rdfs:comment xml:lang="en">Vulnerability is a characteristic of a system asset and depict a weakness within system.</rdfs:comment>
         <rdfs:label xml:lang="en">Vulnerability</rdfs:label>
     </owl:Class>
     
