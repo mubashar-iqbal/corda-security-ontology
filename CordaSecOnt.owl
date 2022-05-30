@@ -418,6 +418,7 @@
 
     <owl:Class rdf:about="https://mmisw.org/ont/~mubashar/CordaSecOnt#AccessLog">
         <rdfs:subClassOf rdf:resource="https://mmisw.org/ont/~mubashar/CordaSecOnt#Log"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AccessLog</rdfs:label>
     </owl:Class>
     
 
@@ -467,6 +468,7 @@
 
     <owl:Class rdf:about="https://mmisw.org/ont/~mubashar/CordaSecOnt#AuthenticationLog">
         <rdfs:subClassOf rdf:resource="https://mmisw.org/ont/~mubashar/CordaSecOnt#Log"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AuthenticationLog</rdfs:label>
     </owl:Class>
     
 
@@ -595,6 +597,7 @@
                 <owl:someValuesFrom rdf:resource="https://mmisw.org/ont/~mubashar/CordaSecOnt#CustomerData"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Consensus</rdfs:label>
     </owl:Class>
     
 
@@ -728,6 +731,7 @@
                 <owl:someValuesFrom rdf:resource="https://mmisw.org/ont/~mubashar/CordaSecOnt#TradeMatching"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Database</rdfs:label>
     </owl:Class>
     
 
@@ -842,6 +846,7 @@
                 <owl:someValuesFrom rdf:resource="https://mmisw.org/ont/~mubashar/CordaSecOnt#DigitalAsset"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Device</rdfs:label>
     </owl:Class>
     
 
@@ -959,6 +964,7 @@
 
     <owl:Class rdf:about="https://mmisw.org/ont/~mubashar/CordaSecOnt#ErrorLog">
         <rdfs:subClassOf rdf:resource="https://mmisw.org/ont/~mubashar/CordaSecOnt#Log"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ErrorLog</rdfs:label>
     </owl:Class>
     
 
@@ -1033,6 +1039,7 @@
 
     <owl:Class rdf:about="https://mmisw.org/ont/~mubashar/CordaSecOnt#EstablishDisciplinaryProcess">
         <rdfs:subClassOf rdf:resource="https://mmisw.org/ont/~mubashar/CordaSecOnt#StaffSecurityTraining"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EstablishDisciplinaryProcess</rdfs:label>
     </owl:Class>
     
 
@@ -1041,6 +1048,7 @@
 
     <owl:Class rdf:about="https://mmisw.org/ont/~mubashar/CordaSecOnt#EstablishInductionProcess">
         <rdfs:subClassOf rdf:resource="https://mmisw.org/ont/~mubashar/CordaSecOnt#StaffSecurityTraining"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EstablishInductionProcess</rdfs:label>
     </owl:Class>
     
 
@@ -1058,6 +1066,7 @@
 
     <owl:Class rdf:about="https://mmisw.org/ont/~mubashar/CordaSecOnt#FormalAssessmentOfSecuritySkills">
         <rdfs:subClassOf rdf:resource="https://mmisw.org/ont/~mubashar/CordaSecOnt#StaffSecurityTraining"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FormalAssessmentOfSecuritySkills</rdfs:label>
     </owl:Class>
     
 
@@ -1163,6 +1172,7 @@
 
     <owl:Class rdf:about="https://mmisw.org/ont/~mubashar/CordaSecOnt#ImproveSecurityUnderstanding">
         <rdfs:subClassOf rdf:resource="https://mmisw.org/ont/~mubashar/CordaSecOnt#SecurityAwareness"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ImproveSecurityUnderstanding</rdfs:label>
     </owl:Class>
     
 
@@ -1414,6 +1424,7 @@
                 <owl:someValuesFrom rdf:resource="https://mmisw.org/ont/~mubashar/CordaSecOnt#TradeData"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Log</rdfs:label>
     </owl:Class>
     
 
@@ -1709,6 +1720,7 @@
 
     <owl:Class rdf:about="https://mmisw.org/ont/~mubashar/CordaSecOnt#OperationLog">
         <rdfs:subClassOf rdf:resource="https://mmisw.org/ont/~mubashar/CordaSecOnt#Log"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OperationLog</rdfs:label>
     </owl:Class>
     
 
@@ -2070,6 +2082,7 @@
                 <owl:someValuesFrom rdf:resource="https://mmisw.org/ont/~mubashar/CordaSecOnt#Confidentiality"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SharingFullContentWithValidatingNotaries</rdfs:label>
     </owl:Class>
     
 
@@ -2102,6 +2115,7 @@
                 <owl:someValuesFrom rdf:resource="https://mmisw.org/ont/~mubashar/CordaSecOnt#TransactionValidation"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SmartContract</rdfs:label>
     </owl:Class>
     
 
