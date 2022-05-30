@@ -16,7 +16,7 @@
         <terms:license rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://creativecommons.org/licenses/by/4.0</terms:license>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CordaSecOnt provides an extensible knowledge base of information security including the notions of Blockchain and Corda platform.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corda Security Ontology (CordaSecOnt)</rdfs:label>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</owl:versionInfo>
     </owl:Ontology>
     
 
