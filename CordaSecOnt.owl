@@ -65,6 +65,17 @@
     
 
 
+    <!-- http://purl.org/dc/terms/isPartOf -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/isPartOf">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dublin core annotation property to determine if the threat is connected to traditional or blockchain-based applications.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://mmisw.org/ont/~mubashar/CordaSecOnt#Dublin_core"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dcterms:isPartOf</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">It is a dublin core metadata term.</rdfs:seeAlso>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.org/dc/terms/license -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license">
@@ -752,6 +763,7 @@
                 <owl:someValuesFrom rdf:resource="https://mmisw.org/ont/~mubashar/CordaSecOnt#Counterparty"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <terms:isPartOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BlockchainApplication</terms:isPartOf>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Appeared</rdfs:seeAlso>
     </owl:Class>
     
@@ -795,6 +807,7 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <terms:isPartOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TraditionalApplication</terms:isPartOf>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mitigated</rdfs:seeAlso>
     </owl:Class>
     
@@ -825,6 +838,7 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <terms:isPartOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BlockchainApplication</terms:isPartOf>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Appeared</rdfs:seeAlso>
     </owl:Class>
     
@@ -925,6 +939,7 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <terms:isPartOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TraditionalApplication</terms:isPartOf>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mitigated</rdfs:seeAlso>
     </owl:Class>
     
@@ -955,6 +970,7 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <terms:isPartOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BlockchainApplication</terms:isPartOf>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Appeared</rdfs:seeAlso>
     </owl:Class>
     
@@ -1234,6 +1250,7 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <terms:isPartOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TraditionalApplication</terms:isPartOf>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mitigated</rdfs:seeAlso>
     </owl:Class>
     
@@ -1786,6 +1803,7 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <terms:isPartOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BlockchainApplication</terms:isPartOf>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Appeared</rdfs:seeAlso>
     </owl:Class>
     
@@ -1851,6 +1869,7 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <terms:isPartOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BlockchainApplication</terms:isPartOf>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Appeared</rdfs:seeAlso>
     </owl:Class>
     
@@ -1923,6 +1942,7 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <terms:isPartOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TraditionalApplication</terms:isPartOf>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mitigated</rdfs:seeAlso>
     </owl:Class>
     
@@ -2144,6 +2164,7 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <terms:isPartOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BlockchainApplication</terms:isPartOf>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Appeared</rdfs:seeAlso>
     </owl:Class>
     
@@ -2181,6 +2202,7 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <terms:isPartOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TraditionalApplication</terms:isPartOf>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mitigated</rdfs:seeAlso>
     </owl:Class>
     
@@ -2284,6 +2306,7 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <terms:isPartOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TraditionalApplication</terms:isPartOf>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mitigated</rdfs:seeAlso>
     </owl:Class>
     
