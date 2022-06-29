@@ -764,6 +764,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:isPartOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BlockchainApplication</terms:isPartOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deanonymization</rdfs:label>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Appeared</rdfs:seeAlso>
     </owl:Class>
     
@@ -808,6 +809,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:isPartOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TraditionalApplication</terms:isPartOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DenialOfService</rdfs:label>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mitigated</rdfs:seeAlso>
     </owl:Class>
     
@@ -839,6 +841,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:isPartOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BlockchainApplication</terms:isPartOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DenialOfStack</rdfs:label>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Appeared</rdfs:seeAlso>
     </owl:Class>
     
@@ -940,6 +943,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:isPartOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TraditionalApplication</terms:isPartOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ElevationOfPrivilege</rdfs:label>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mitigated</rdfs:seeAlso>
     </owl:Class>
     
@@ -971,6 +975,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:isPartOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BlockchainApplication</terms:isPartOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EndpointThreat</rdfs:label>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Appeared</rdfs:seeAlso>
     </owl:Class>
     
@@ -1251,6 +1256,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:isPartOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TraditionalApplication</terms:isPartOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InformationDisclosure</rdfs:label>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mitigated</rdfs:seeAlso>
     </owl:Class>
     
@@ -1804,6 +1810,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:isPartOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BlockchainApplication</terms:isPartOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PrivacyViolation</rdfs:label>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Appeared</rdfs:seeAlso>
     </owl:Class>
     
@@ -1870,6 +1877,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:isPartOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BlockchainApplication</terms:isPartOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">QuantumComputingThreat</rdfs:label>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Appeared</rdfs:seeAlso>
     </owl:Class>
     
@@ -1943,6 +1951,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:isPartOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TraditionalApplication</terms:isPartOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Repudiation</rdfs:label>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mitigated</rdfs:seeAlso>
     </owl:Class>
     
@@ -2165,6 +2174,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:isPartOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BlockchainApplication</terms:isPartOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SmartContractThreat</rdfs:label>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Appeared</rdfs:seeAlso>
     </owl:Class>
     
@@ -2203,6 +2213,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:isPartOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TraditionalApplication</terms:isPartOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spoofing</rdfs:label>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mitigated</rdfs:seeAlso>
     </owl:Class>
     
@@ -2307,6 +2318,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:isPartOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TraditionalApplication</terms:isPartOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tampering</rdfs:label>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mitigated</rdfs:seeAlso>
     </owl:Class>
     
