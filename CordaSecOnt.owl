@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://mmisw.org/ont/~mubashar/ULRO#"
+<rdf:RDF xmlns="https://mmisw.org/ont/~mubashar/HealthOnt#"
      xml:base="https://mmisw.org/ont/~mubashar/ULRO"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -36,7 +36,7 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This annotation property defines who created this ontology.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="https://mmisw.org/ont/~mubashar/ULRO#Dublin_core"/>
+        <rdfs:isDefinedBy rdf:resource="https://mmisw.org/ont/~mubashar/CordaSecOnt#Dublin_core"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dc:creator</rdfs:label>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">It is a dublin core metadata term.</rdfs:seeAlso>
     </owl:AnnotationProperty>
@@ -47,7 +47,7 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/isReferencedBy">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This annotation property indicates the source from which the knowledge is retrieved for a particular concept.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="https://mmisw.org/ont/~mubashar/ULRO#Dublin_core"/>
+        <rdfs:isDefinedBy rdf:resource="https://mmisw.org/ont/~mubashar/CordaSecOnt#Dublin_core"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dc:isReferencedBy</rdfs:label>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">It is a dublin core metadata term.</rdfs:seeAlso>
     </owl:AnnotationProperty>
@@ -58,7 +58,7 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This annotation property defines the title of ontology.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="https://mmisw.org/ont/~mubashar/ULRO#Dublin_core"/>
+        <rdfs:isDefinedBy rdf:resource="https://mmisw.org/ont/~mubashar/CordaSecOnt#Dublin_core"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dc:title</rdfs:label>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">It is a dublin core metadata term.</rdfs:seeAlso>
     </owl:AnnotationProperty>
