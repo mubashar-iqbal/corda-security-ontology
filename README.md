@@ -91,5 +91,9 @@ CordaSecOnt "is-a" based taxonomical structure illustrates the class hierarchies
 
 <img src="CordaSecOnt_As-is_classes.png" width="550" alt="CordaSecOnt Protégé-based classifications" title="CordaSecOnt Protégé-based classifications"/>
 
+## V1
+CordaSecOnt version 1 is related to the published paper: [Corda Security Ontology: Example of Post-Trade
+Matching and Confirmation](https://doi.org/10.22364/bjmc.2020.8.4.11).
+
 ## How to use?
 Download [Protégé](https://protege.stanford.edu) editor. Load/import [CordaSecOnt](https://mmisw.org/ont/~mubashar/CordaSecOnt) in Protégé and navigate to the *Entities* tab to explore the encoded security risk management concepts.
